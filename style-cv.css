@@ -1,53 +1,78 @@
-body{
-  background-color: rgb(240, 242, 245);
-  font-family: Arial;
+body {
+  background-color: #f8f9fa; 
+  font-family: 'Segoe UI', Arial, sans-serif;  
   font-size: 16px;
-  color: rgb(51, 51, 51);
+  color: #333333;
   line-height: 1.6;
-
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
 }
 
-h1{
-  color:rgb(33, 33, 33);
-  font-size:32px ;
-  letter-spacing:1px ;
+h1 {
+  color: #1a252f; 
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+/* العنوان الفرعي تحت الاسم مباشرة */
+h1 + h2 {
+  color: #555555;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+h2 {
+  color: #2c3e50; 
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase; 
+  border-bottom: 2px solid #ecf0f1; 
+  padding-bottom: 5px;
+}
+
+
+h3 {
+  color: #2c3e50;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #555555;
   margin-bottom: 15px;
 }
 
-h2{
-  color:rgb(55, 55, 55);
-  font-size:24px ;
-  margin-top: 20px ;  
-  margin-bottom: 10px;
-  font-weight: 600 ;
-  letter-spacing: 0.5px ;
-}
- 
-p{
-  color: rgb(70, 70, 70);
-  line-height:1.6 ;
-  margin-bottom: 10px ;
+
+ol, ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
 }
 
-li{
-  color:rgb(70, 70, 70) ;
-  margin-bottom: 6px;
-  line-height: 1.6;
-
+li {
+  color: #444444;
+  margin-bottom: 8px;
 }
 
-a:link{
-  color:rgb(46, 125, 50);
+
+a:link, a:visited {
+  color: #2980b9; 
   text-decoration: none;
+  font-weight: bold;
 }
-a:visited{
-  color: rgb(0,102,204);
-} 
 
-
+a:hover {
+  text-decoration: underline; 
+  color: #2c3e50;
+}
+  
 
 
 
