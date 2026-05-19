@@ -16,7 +16,7 @@ h1 {
   margin-bottom: 5px;
 }
 
-/* العنوان الفرعي تحت الاسم مباشرة */
+
 h1 + h2 {
   color: #555555;
   font-size: 18px;
